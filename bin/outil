@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift(File.dirname(__FILE__) + '/../lib')
+require 'outil'
+
+# USAGE
+#   * publish
+#     --all
+#     --name=NAME  
+#   * localize
+#     --all
+#     --name=NAME
+#   * config
+#     --username=USERNAME
+#     --password=PASSWORD
+#     --file=CONFIG_FILE_PATH
+#     --index=INDEX_LOCATION
+#   * take
+#     --url=URL
+#     --user=USERNAME
+#     --name=UTILITY_NAME
